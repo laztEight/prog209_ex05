@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    background-color: lightgray;
+}
+#stage{
+    background-color: rgba(244, 179, 66, .7);
+    position: relative;
+    padding: 5px;
+    margin: 1px;
+    border: solid;
+}
+.color{
+    padding: 5px;
+    margin: 10px;
+    border: ridge;
+    width: 50px;
+    display: inline;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+textarea{
+    width: 50px;
+}
+#red{
+    position: relative;
+    float: left;
+}
+#green{
+    position: relative;
+    float: left;
+}
+#showColor{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    width: 350px;
+    height: 100px;
+    padding: 5px;
+    margin: 1px;
+    border: ridge;
+}

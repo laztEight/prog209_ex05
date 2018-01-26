@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Color Picker</title>
+    
+  <link rel="stylesheet" type="text/css" href="colorpicker.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<section>    
+    <div id="stage">
+        <h1>Color Picker</h1>
+        <h3>Select a color number from 0 to 255 for each color value</h3>
+        <div class="color">
+            <h4>Red</h4>
+            <div><textarea id="red" size="4"></textarea>
+            </div>
+        </div>
+        <div class="color">
+            <h4>Green</h4>
+            <div><textarea id="green" size="4"></textarea>
+            </div>
+        </div>
+        <div class="color">
+            <h4>Blue</h4>
+            <div><textarea id="blue" size="4"></textarea>
+            </div>
+        </div>
+        
+        <button id="btn">Save</button>
+        
+        <div id="showColor"></div>
+    </div>
+</section>  
+    
+  <script src="colorpicker.js"></script>
+</body>
+</html>
