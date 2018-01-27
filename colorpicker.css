@@ -10,11 +10,12 @@ body{
     padding: 5px;
     margin: 1px;
     border: solid;
+    height: 300px;
 }
 .color{
     padding: 5px;
     margin: 10px;
-    border: ridge;
+    border: solid black;
     width: 50px;
     display: inline;
     position: relative;
@@ -33,12 +34,12 @@ textarea{
     float: left;
 }
 #showColor{
-    position: absolute;
-    bottom: 10px;
+    position: relative;
+    float: right;
     right: 50px;
     width: 350px;
     height: 100px;
     padding: 5px;
     margin: 1px;
-    border: ridge;
+    border: ridge black;
 }
