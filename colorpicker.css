@@ -34,6 +34,7 @@ textarea{
     float: left;
 }
 #showColor{
+    background-color: rgb(255,255,255);
     position: relative;
     float: right;
     right: 50px;
@@ -43,4 +44,7 @@ textarea{
     margin: 1px;
     border: ridge black;
     font-weight: 900;
+}
+textarea #hex {
+    border: clear;
 }

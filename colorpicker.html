@@ -14,6 +14,7 @@
 
 <body>
 <section>    
+<form id="mainForm">    
     <div id="stage">
         <h1>Color Picker</h1>
         <h3>Select a color number from 0 to 255 for each color value</h3>
@@ -35,8 +36,11 @@
         
         <button id="btn" type="button" onclick="clickHandler();return false">Save</button>
         
-        <div id="showColor"></div>
+        <button id="btnReset" type="button" onclick="clickReset();return false">Reset</button>
+        
+        <div id="showColor"><p id="hex"></p></div>
     </div>
+    </form>
 </section>  
     
   <script src="colorpicker.js"></script>

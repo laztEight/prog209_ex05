@@ -5,6 +5,7 @@ var blue = 0;
 var showColor = document.getElementById("showColor");
  
 var btn = document.getElementById("btn");
+var btnReset = document.getElementById("btnReset");
     
 // showing the color in the box
 function clickHandler(){
@@ -28,4 +29,10 @@ function colorToHex(color) {
     
     var rgb = blue | (green << 8) | (red << 16);
     return digits[1] + 'hex #' + rgb.toString(16);
-};
+}
+
+function clickReset(){
+    document.getElementById("mainForm").reset();
+    showColor.style.backgroundColor = 'rgb(255, 255, 255)';
+    showColor.textContent = "";
+}
